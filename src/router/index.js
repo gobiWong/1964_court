@@ -1,15 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import CourtBgc from '@/components/CourtBgc.vue'
+import routes from './route'
 
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'CourtBgc',
-      component: CourtBgc
-    }
-  ]
+  routes
 })
